@@ -1,0 +1,272 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url('wp4.jpeg');
+    background-position: center top;
+}
+
+.row{
+  background-color: #000000;
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  border: 0px solid black;
+  text-align: left;
+}
+
+
+/*===== HEADER =====*/
+.header{
+  padding-top: 10px;
+}
+
+h1 { 
+  text-align: center;
+  color: #e7e7e7;
+}
+
+.span{
+  color: #ffbf35;
+}
+
+
+/*===== NAVBAR =====*/
+.navbar-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar-container ul li{
+  float: left;
+}
+
+.navbar-container ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-container ul li a:hover{
+  background-color: #111;
+}
+
+
+/*===== IMAGE =====*/
+.frame{
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  margin: 10px auto;
+  border-radius: 50%;
+}
+
+.frame img{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+#profile{
+  background-color: #1a1a1a;
+}
+
+
+/*===== PROFILE =====*/
+.about-me{
+  width: 100%;
+  float: left;
+  padding: 25px;
+}
+
+.about-me h3{
+  color: #ffbf35;
+}
+
+.about-me p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #e7e7e7;
+}
+
+.about-me td{
+  float: left ;
+}
+
+.heading-text{
+  text-align: center;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  color: #ffbf35;
+}
+
+.profile-table{
+  color: #999;
+}
+
+.profile-table tr th{
+  width: 300px;
+}
+
+
+/*===== SKILL =====*/
+.width-50{
+  width: 50%;
+  Float: left;
+}
+
+.skillbox{
+  margin: 50px
+}
+.skill{
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.skill b{
+  color: #e7e7e7;
+}
+
+.skill span{
+  float: right;
+  color: #ffbf35;
+}
+
+.skill div{
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  background: #e7e7e7;
+  border-radius: 10px;
+}
+
+.skill div span{
+  background: #ffbf35;
+  height: 5px;
+  float: left;
+}
+
+div[role="progressbar"]{
+  color: #ffbf35;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  place-items: center;
+  display: grid;
+
+  --pgPercentage: var(--value);
+  background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+  conic-gradient(#ffbf35 calc(var(--pgPercentage) *1%), #f3f3f3 0);
+}
+
+
+/*===== PROJECT =====*/
+.project{
+  background-image: linear-gradient(#000, #000, #333, #000);
+  color: #fff;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.project h2{
+  padding-left: 30px;
+  margin-bottom: 40px;
+}
+
+.project-caption td{
+  padding: 20px;
+  text-align: center;
+}
+
+.pj img{
+  transition: all 0.4s ease-in-out;
+}
+
+.pj img:hover{
+  transform: scale(1.05);
+  transform-origin: center;
+  transition: transform 0.2s ease-in-out;
+}
+    
+.pj-1 img{
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pj-2 img{
+  width: 400px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pj-3 img{
+  width: 350px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*===== SOSMED =====*/
+.sosmed table td{
+  text-align: center;
+}
+
+.fa {
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-youtube:hover{
+  color: crimson;
+}
+
+.fa-instagram:hover{
+  color: magenta;
+}
+
+.fa-github:hover{
+  color: cornflowerblue;
+}
+
+
+/*===== FOOTER =====*/
+.footer{
+  background-color: #000000;
+}
+
+.footer table td{
+  color: #ffbf35;
+    text-align: center;
+    padding: 20px;
+}
+
